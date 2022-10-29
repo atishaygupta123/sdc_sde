@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#SDC_to_SDE Task 1</title>
+</head>
+<body bgcolor="#f0ebf8">
+    <h1>#SDC_to_SDE Task 1 (Google form replica)</h1>
+    <p>
+        The deadline of filling the form is tomorrow (Sunday 30 Oct 2022) 10 pm <br>
+        People who won't complete even one task will be considered uninterested and will be <br>
+        removed from the group.<br>
+        If you are stuck at any step, do ask us, we are help you people only.
+    </p>
+    <br>
+    <form action="backend.php">
+        <div>
+            Email *: <input type="email">
+        </div>
+        <br>
+        <div>
+            Name *: <input type="text">
+        </div>
+        <br>
+        <div>
+            Enrollment Number *: <input type="number">
+        </div>
+        <br>
+        <div>
+            Course *: <input type="text">
+        </div>
+        <br>
+        <div>
+            Submission for Web Development task (Github URL) <input type="url">
+        </div>
+        <br>
+        <div>
+            Submission for AI&ML task (Screenshots) <input type="file">
+        </div>
+        <br>
+        <div>
+            Submission for Web3 task(Metamask address) <input type="text">
+        </div>
+        <br>
+        <div>
+            Submission for App Development task <input type="file">
+        </div>
+        <br>
+        <div>
+            Submission for Security and testing <input type="text">
+        </div>
+        <br>
+        <div>
+            Feedback of 1st session <input type="text">
+        </div>
+        <br>
+        <p>A copy of your responses will be emailed to the address you provided.</p>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear form">
+        </div>
+    </form>
+</body>
+</html>
